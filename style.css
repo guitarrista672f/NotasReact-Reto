@@ -1,0 +1,79 @@
+
+
+
+
+body{
+    background: linear-gradient(120deg,rgba(0, 0, 0, 0.548),rgba(215, 226, 52, 0.562),white,rgba(255, 255, 0, 0.582),rgba(0, 0, 0, 0.555));
+    color: rgb(15, 15, 14);
+}
+
+.formulario{
+   
+    display:flex;
+    flex-direction: column;    
+    align-items:center;
+    align-content: space-between;
+    border:solid 2px rgba(128, 128, 128, 0.267);
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+   box-shadow: 2px 2px 12px gray;
+    margin-bottom: 2rem;  
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    align-content: space-between;
+    
+}
+.boton{
+    background:rgb(140, 206, 40) ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:aliceblue;
+    height:3rem;
+    padding: 15px;
+    font-size: bold;
+}
+.etiquetas{
+    display: flex;
+    flex-direction: column;  
+    align-items:center;
+   
+   
+   
+}
+.entrada{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.contenedor-notas{
+   
+    background: white;
+    color: black;
+    border:solid 2px rgba(49, 167, 112, 0.219);
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 2px 2px 12px gray;
+    background: linear-gradient(145deg,white,rgba(118, 235, 180, 0.603),rgba(124, 201, 141, 0.603),rgba(19, 31, 3, 0.411));
+}
+
+.item-list{
+    border:1px solid rgba(0, 128, 0, 0.301);
+    padding: 10px;
+    box-shadow: 2px 2px 12px gray;
+    list-style: none;
+    margin-right: 1.5rem;
+   
+   
+   
+}
+hr{
+    color:rgba(85, 59, 12, 0.329);
+    height: 3px;
+    background:rgba(66, 53, 9, 0.534) ;
+}
+ 
