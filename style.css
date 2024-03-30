@@ -1,10 +1,13 @@
 
 
-
+html{
+    height: 100%;
+}
 
 body{
     background: linear-gradient(120deg,rgba(0, 0, 0, 0.548),rgba(215, 226, 52, 0.562),white,rgba(255, 255, 0, 0.582),rgba(0, 0, 0, 0.555));
     color: rgb(15, 15, 14);
+    height: 100%;
 }
 
 .formulario{

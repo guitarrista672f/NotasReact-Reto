@@ -27,6 +27,10 @@ function Seccionformulario() {
        
 
         //Actualizar estado
+        if(titulo.value && descripcion.value){
+
+
+      
         setNotas([...notas, ...[{ "id": k, "titulo": titulo.value, "descripcion": descripcion.value }]]);
 
        
@@ -34,6 +38,9 @@ function Seccionformulario() {
         //Limpiar inputs
         titulo.value='';
         descripcion.value='';
+    }else{
+        alert("Introduzca un titulo y su descripcion");
+    }
 
     }
 
